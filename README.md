@@ -21,6 +21,16 @@ finance-backend/
 └── .env
 ```
 
+- Framework-FastAPI 0.111
+- Language-Python 3.11+
+-  Database-PostgreSQL 17
+- ORM-SQLAlchemy 2.0 (async) 
+-  Migrations-Alembic -
+-  Auth-JWT via python-jose + bcrypt
+-  Validation-Pydantic v2
+-  Rate Limiting-slowapi (limits library)
+-  Local DB-Docker + docker-compose
+
 ## Setup
 
 ### 1. Install dependencies
